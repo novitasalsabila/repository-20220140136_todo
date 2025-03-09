@@ -1,66 +1,29 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Penjelasan :
+1.	Buat project dengan nama 20220140136-Todo
+2.	Pada file .env pada DB_DATABASE, DB_USERNAME dan DB_PASSWORD sudah disesuaikan dengan db yang sudah ada.
+       ![image](https://github.com/user-attachments/assets/c54684ba-0c40-4fee-9587-4fa088ef7967)
+  	
+3.	Jalankan perintah : composer require laravel/breeze –dev. Berfungsi untuk menginstal Laravel Breeze, yang merupakan paket starter untuk autentikasi Laravel.
+     ![image](https://github.com/user-attachments/assets/427ec310-7ec4-472d-a510-97db2f7fea2b)
 
-## About Laravel
+4.	Jalankan perintah : php artisan breeze:install . Digunakan untuk mengonfigurasi Laravel Breeze setelah paketnya diinstal. Lalu ketik blade.
+     ![image](https://github.com/user-attachments/assets/06e7952a-602a-41d4-a7e0-019eb9a07fba)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+5.	Jalankan perintah : php artisan migrate. Berfungsi untuk menjalankan migrasi database di Laravel, yaitu membuat tabel-tabel yang telah didefinisikan dalam file migrasi di database/migrations/.
+6.	Lalu jalankan perintah : npm install. igunakan untuk menginstal semua dependensi (library) yang dibutuhkan oleh proyek JavaScript, termasuk Laravel yang menggunakan frontend berbasis Vue, React, atau Tailwind CSS.
+     ![image](https://github.com/user-attachments/assets/be067c64-7ef3-48f7-8a5a-54eb8ffa9900)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+7.	Jalankan program dengan perintah : php artisan serve
+8.	Web.php :
+    ![image](https://github.com/user-attachments/assets/55eac9b1-598e-4f92-a908-3202c17a3f70)
+  	
+9. Registrasi User :
+    ![image](https://github.com/user-attachments/assets/619e5302-0c80-4705-a772-ea41789faca6)
+  	
+10. Browser :
+    ![Screenshot (13)](https://github.com/user-attachments/assets/9f83cb09-d682-40e3-a98c-82b574e60669)
+    
+11. Database :
+    ![image](https://github.com/user-attachments/assets/93be6c8b-2c1a-4d07-b724-8c44364ad04f)
+    
